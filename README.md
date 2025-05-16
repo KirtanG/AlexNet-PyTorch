@@ -23,8 +23,7 @@ This repository implements AlexNet, a deep convolutional neural network, trained
 - The original learning rate used in the paper was `lr = 0.01` but was changed to `lr = 0.001` as the model's training was unstable and lead to poor results both on train and test set.
 - The original paper used 1000 classes as opposed to 10 used in this repository.
 - The batch-size used here is 64 (in the original paper it was 128).
-- The blurry images in visualisation are due to scaling of images from 32*32 to 224 * 224.
-- The artifacts directory contains saved model states after epochs 10 & 20. 
+- The blurry images in visualisation are due to scaling of images from 32*32 to 224 * 224. 
 
 ## References
   * [Original Paper](https://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf)
